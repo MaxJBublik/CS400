@@ -1,55 +1,86 @@
-Script started on 2024-06-19 10:47:08-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="204" LINES="55"]
-[?2004h[bublik@vm-instunix-01] (1)$ [7mgit clone https://github.com/zhouwisc/CS400FirstGitLab[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone https://github.com/zhouwisc/CS400FirstGitLab
+Script started on 2024-06-19 15:18:04-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="204" LINES="55"]
+[?2004h[bublik@snares-04] (1)$ git cl[K[K[K[K[K[K[7m git clone https://github.com/zhouwisc/CS400FirstGitLab[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C git clone https://github.com/zhouwisc/CS400FirstGitLab
 [?2004lCloning into 'CS400FirstGitLab'...
 remote: Enumerating objects: 4, done.[K
 remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
 remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
 remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0[K
 Receiving objects:  25% (1/4)Receiving objects:  50% (2/4)Receiving objects:  75% (3/4)Receiving objects: 100% (4/4)Receiving objects: 100% (4/4), done.
-[?2004h[bublik@vm-instunix-01] (2)$ cd CS400FirstL[KGI[KitLab
-[?2004l[?2004h[bublik@vm-instunix-01] (3)$ ls -a
-[?2004l[0m[01;34m.[0m/  [01;34m..[0m/  Color.java  [01;34m.git[0m/  Main.java
-[?2004h[bublik@vm-instunix-01] (4)$ git add .
-[?2004l[?2004h[bublik@vm-instunix-01] (5)$ git commit -,[Km [7m"First version of Color class code"[27m"First version of Color class code"
+[?2004h[bublik@snares-04] (2)$ git att[K[Kdd *.java
+[?2004l[?2004h[bublik@snares-04] (3)$ git commit -m ^?[K[K [7m"First version of Color class code"[27m"First version of Color class code"
 [?2004lOn branch main
-Your branch is up to date with 'origin/main'.
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
 
-nothing to commit, working tree clean
-[?2004h[bublik@vm-instunix-01] (6)$ git push [K[K[K[K[K[K[K[K[Kgit add *.java
-[?2004l[?2004h[bublik@vm-instunix-01] (7)$ git cmm[K[Kommit -m ^?[K[K [7mRun git add command to track the java files, commit them with the message "First version of Color class code", and then push the java files into your own GitHub [27m[7mr[27m[7mepository named as CS400FirstGitLab.[27m[A[C[C[C[C[C[CRun git add command to track the java files, commit them with the message "First version of Color class code", and then push the java files into your own GitHub r[1Pepository named as CS400FirstGitLab[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Km [7m"First version of Color class code"[27m"First version of Color class code"
-[?2004lOn branch main
-Your branch is up to date with 'origin/main'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   LabW3GitCloneLog.txt[m
+	[31mdeleted:    Labw3GitCloneLog.txt[m
 
-nothing to commit, working tree clean
-[?2004h[bublik@vm-instunix-01] (8)$ [7mgit push -u origin main[27mgit push -u origin main
-[?2004lUsername for 'https://github.com': MaxJBublik
-Password for 'https://MaxJBublik@github.com': 
-remote: Support for password authentication was removed on August 13, 2021.
-remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
-fatal: Authentication failed for 'https://github.com/zhouwisc/CS400FirstGitLab/'
-[?2004h[bublik@vm-instunix-01] (9)$ git push -u origin main
-[?2004lUsername for 'https://github.com': MaxJBublik
-Password for 'https://MaxJBublik@github.com': 
-remote: Support for password authentication was removed on August 13, 2021.
-remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
-fatal: Authentication failed for 'https://github.com/zhouwisc/CS400FirstGitLab/'
-[?2004h[bublik@vm-instunix-01] (10)$ git push -u origin main[1P[1P[1P
-[?2004lUsername for 'https://github.com': MaxJBublik
-Password for 'https://MaxJBublik@github.com': 
-remote: Support for password authentication was removed on August 13, 2021.
-remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
-fatal: Authentication failed for 'https://github.com/zhouwisc/CS400FirstGitLab/'
-[?2004h[bublik@vm-instunix-01] (11)$ git remote add origin https://[7m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[27m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@github.com/MaxJBublik/CS400
-[?2004lerror: remote origin already exists.
-[?2004h[bublik@vm-instunix-01] (12)$ git remote[K[K[K[K[K[K[K[K[K[Kgit remote add origin https://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@github.com/MaxJBublik/CS400[C[C[C[1P[1P[1P[1P[C[1@ [1@s[1@e[1@t[1@-[1@u[1@r[1@l
-[?2004l[?2004h[bublik@vm-instunix-01] (13)$ git remote set-url origin https://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@github.com/MaxJBublik/CS400[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Padd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush origin main[K[3@-u [C[C[C[C[C[C[C[C[C[C[C[3P[C[C[C[C[C[C[C[C[C[C[C
-[?2004lTo https://github.com/MaxJBublik/CS400
- [31m! [rejected]       [m main -> main (fetch first)
-[31merror: failed to push some refs to 'https://github.com/MaxJBublik/CS400'
-[m[33mhint: Updates were rejected because the remote contains work that you do[m
-[33mhint: not have locally. This is usually caused by another repository pushing[m
-[33mhint: to the same ref. You may want to first integrate the remote changes[m
-[33mhint: (e.g., 'git pull ...') before pushing again.[m
-[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
-[?2004h[bublik@vm-instunix-01] (14)$ g
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mCS400FirstGitLab/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h[bublik@snares-04] (4)$ git push -u origin main
+[?2004lEnumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 1.72 KiB | 1.72 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: This repository moved. Please use the new location:[K
+remote:   https://github.com/MaxJBublik/CS400.git[K
+remote: [1;31merror[m: GH013: Repository rule violations found for refs/heads/main.[K
+remote: 
+remote: - GITHUB PUSH PROTECTION[K
+remote:   —————————————————————————————————————————[K
+remote:     Resolve the following violations before pushing again[K
+remote: 
+remote:     - Push cannot contain secrets[K
+remote: 
+remote:     [K
+remote:      (?) Learn how to resolve a blocked push[K
+remote:      https://docs.github.com/code-security/secret-scanning/pushing-a-branch-blocked-by-push-protection[K
+remote:     [K
+remote:     [K
+remote:       —— GitHub Personal Access Token ——————————————————————[K
+remote:        locations:[K
+remote:          - commit: 73f7cad6eb75b309e70fe2a62392e149e6b450c4[K
+remote:            path: LabW3GitCloneLog.txt:43[K
+remote:          - commit: 73f7cad6eb75b309e70fe2a62392e149e6b450c4[K
+remote:            path: LabW3GitCloneLog.txt:45[K
+remote:          - commit: 73f7cad6eb75b309e70fe2a62392e149e6b450c4[K
+remote:            path: LabW3GitCloneLog.txt:46[K
+remote:     [K
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.[K
+remote:        https://github.com/MaxJBublik/CS400/security/secret-scanning/unblock-secret/2i6ZHyLan28Sm0f8Tprr9R94O5k[K
+remote:     [K
+remote: 
+remote: 
+To https://github.com/MaxJBublik/CS400FirstGitLab
+ [31m! [remote rejected][m main -> main (push declined due to repository rule violations)
+[31merror: failed to push some refs to 'https://github.com/MaxJBublik/CS400FirstGitLab'
+[m[?2004h[bublik@snares-04] (5)$ git branch
+[?2004l[?1h=* [32mmain[m[m
+[K[?1l>[?2004h[bublik@snares-04] (6)$ git branch
+[?2004l[?1h=* [32mmain[m[m
+[K[?1l>[?2004h[bublik@snares-04] (7)$ git branchpush -u origin main
+[?2004lEnumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 1.72 KiB | 1.72 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: This repository moved. Please use the new location:[K
+remote:   https://github.com/MaxJBublik/CS400.git[K
+To https://github.com/MaxJBublik/CS400FirstGitLab
+   46e5a94..73f7cad  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+[?2004h[bublik@snares-04] (8)$ exit
+[?2004lexit
+
+Script done on 2024-06-19 15:23:03-05:00 [COMMAND_EXIT_CODE="0"]

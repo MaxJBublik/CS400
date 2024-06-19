@@ -1,34 +1,0 @@
-Script started on 2024-06-19 10:06:47-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="204" LINES="55"]
-[?2004h[bublik@vm-instunix-01] (1)$ [7mgit clone https://github.com/zhouwisc/CS400FirstGitLab[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone https://github.com/zhouwisc/CS400FirstGitLab
-[?2004lCloning into 'CS400FirstGitLab'...
-remote: Enumerating objects: 4, done.[K
-remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
-remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
-remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0[K
-Receiving objects:  25% (1/4)Receiving objects:  50% (2/4)Receiving objects:  75% (3/4)Receiving objects: 100% (4/4)Receiving objects: 100% (4/4), done.
-[?2004h[bublik@vm-instunix-01] (2)$ ls
-[?2004l[0m[01;34mCS400FirstGitLab[0m/  [01;34mLab1Task1[0m/  Lab1Task1log.txt  [01;34mLab1Task2[0m/  Lab1Task2.tar.gz  Labw3GitCloneLog.txt
-[?2004h[bublik@vm-instunix-01] (3)$ cd[K[Kgit add[K[K[K[K[K[K[Kcd CS400FirstGitLab
-[?2004l[?2004h[bublik@vm-instunix-01] (4)$ ls -a
-[?2004l[0m[01;34m.[0m/  [01;34m..[0m/  Color.java  [01;34m.git[0m/  Main.java
-[?2004h[bublik@vm-instunix-01] (5)$ git add
-[?2004lNothing specified, nothing added.
-[33mhint: Maybe you wanted to say 'git add .'?[m
-[33mhint: Turn this message off by running[m
-[33mhint: "git config advice.addEmptyPathspec false"[m
-[?2004h[bublik@vm-instunix-01] (6)$ git add .
-[?2004l[?2004h[bublik@vm-instunix-01] (7)$ git commit -m "[K[7mFirst version of Color class code[27mFirst version of Color class code
-[?2004lerror: pathspec 'version' did not match any file(s) known to git
-error: pathspec 'of' did not match any file(s) known to git
-error: pathspec 'Color' did not match any file(s) known to git
-error: pathspec 'class' did not match any file(s) known to git
-error: pathspec 'code' did not match any file(s) known to git
-[?2004h[bublik@vm-instunix-01] (8)$ git commit -m "^[[200~First version of Color class code~[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mFirst version of Color class code[27mFirst version of Color class code"
-[?2004lOn branch main
-Your branch is up to date with 'origin/main'.
-
-nothing to commit, working tree clean
-[?2004h[bublik@vm-instunix-01] (9)$ exit
-[?2004lexit
-
-Script done on 2024-06-19 10:10:08-05:00 [COMMAND_EXIT_CODE="1"]
