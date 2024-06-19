@@ -1,0 +1,84 @@
+Script started on 2024-06-19 17:30:11-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="204" LINES="55"]
+[?2004h[bublik@snares-03] (1)$ cd CS400FirstGitLab
+[?2004l[?2004h[bublik@snares-03] (2)$ make
+[?2004ljava Main
+Beggining of testing the color class:
+What color do you want to change to? 
+purple
+The new color is:purple
+[?2004h[bublik@snares-03] (3)$ git status
+[?2004l[31minteractive rebase in progress; onto [m73f7cad
+Last command done (1 command done):
+   pick aa45c32 Completed the TODO part in the changeColor method in Color.java, and added the Makefile
+Next commands to do (4 remaining commands):
+   pick f3ddeda Completed the TODO part in the changeColor method in Color.java, and added the Makefile
+   pick 5a76ed5 Completed the TODO part in the changeColor method in Color.java, and added the Makefile
+  (use "git rebase --edit-todo" to view and edit)
+You are currently rebasing branch 'main' on '73f7cad'.
+  (fix conflicts and then run "git rebase --continue")
+  (use "git rebase --skip" to skip this patch)
+  (use "git rebase --abort" to check out the original branch)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   Color.class[m
+	[32mnew file:   LabW3GitCommitLog.txt[m
+	[32mnew file:   Main.class[m
+	[32mnew file:   makefile[m
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add/rm <file>..." as appropriate to mark resolution)
+	[31mdeleted by us:   Color.java[m
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    Lab1Task1/animal/tiger.txt[m
+	[31mdeleted:    Lab1Task1/plant/apple.txt[m
+	[31mdeleted:    Lab1Task1/plant/tree.txt[m
+	[31mdeleted:    Lab1Task1/valuable/gold.txt[m
+	[31mdeleted:    Lab1Task1log.txt[m
+	[31mdeleted:    Lab1Task2.tar.gz[m
+	[31mdeleted:    Lab1Task2/ListADT.class[m
+	[31mdeleted:    Lab1Task2/ListADT.java[m
+	[31mdeleted:    Lab1Task2/Main.class[m
+	[31mdeleted:    Lab1Task2/Main.java[m
+	[31mdeleted:    Lab1Task2/MyFirstJUnitTest.java[m
+	[31mdeleted:    Lab1Task2/MyList.class[m
+	[31mdeleted:    Lab1Task2/MyList.java[m
+	[31mdeleted:    Lab1Task2/MyList.java~[m
+	[31mdeleted:    Lab1Task2/TestMyList.class[m
+	[31mdeleted:    Lab1Task2/TestMyList.java[m
+	[31mdeleted:    Lab1Task2/junit5.jar[m
+	[31mdeleted:    Lab1Task2/out/ListADT.class[m
+	[31mdeleted:    Lab1Task2/out/MyFirstJUnitTest.class[m
+	[31mdeleted:    Lab1Task2/out/MyList.class[m
+	[31mdeleted:    Lab1Task2/out/junit5.jar[m
+	[31mdeleted:    Labw3GitCloneLog.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mMain.java[m
+
+[?2004h[bublik@snares-03] (4)$ cd ..
+[?2004l[?2004h[bublik@snares-03] (5)$ git add .
+[?2004l[?2004h[bublik@snares-03] (6)$ git commit -m [7m"Completed the TODO part in the changeColor method in Color.java, and added the Makefile"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"Completed the TODO part in the changeColor method in Color.java, and added the Makefile"
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   CS400FirstGitLab[m (modified content, untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h[bublik@snares-03] (7)$ git push origin main
+[?2004lEverything up-to-date
+[?2004h[bublik@snares-03] (8)$ cd CS400FirstGitLab
+[?2004l[?2004h[bublik@snares-03] (9)$ nano Color.java
+[?2004l[?2004h[?1049h[22;0;0t[1;55r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[53;96H(B[0;7m[ Reading... ](B[m[53;94H(B[0;7m[ Read 51 lines ](B[m[H(B[0;7m  GNU nano 6.2                                                                                     Color.java                                                                                               [1;203H(B[m[54d(B[0;7m^G(B[m Help[54;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[54;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[54;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous     (B[0;7m^B(B[m Back[54;188H(B[0;7m^◂(B[m Prev Word[55d(B[0;7m^X(B[m Exit[55;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[55;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[55;120H(B[0;7mM-6(B[m Copy[55;137H(B[0;7m^Q(B[m Where Was     (B[0;7mM-W(B[m Next[55;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^▸(B[m Next Word[2d[34m/*[3d *      Color class[4d */[5d[36mpublic[39m(B[m [36mclass[39m(B[m Color{[6;9H[36mprivate[39m(B[m String color;[8;9H[34m//Constructor[9;9H[36mpublic[39m(B[m Color(String iniColor){[10;17H[31mif[39m(B[m(isColorValid(iniColor)){[11;25H[32mthis[39m(B[m.color = iniColor;[12;17H}[13d[31melse[39m(B[m{[14;25HSystem.out.println([31m"Failed to initalize the color"[39m(B[m);[15;17H}[16;9H}[18d[34m//Getter[19;9H[36mpublic[39m(B[m String getColor(){[20;17H[31mreturn[39m(B[m [32mthis[39m(B[m.color;[21;9H}[23d[34m/* The method for changing the color[24;9H[1K * TODO: Revise the code so that it return true only if the input color is valid[25;9H[1K *      and different from the exisitng color before making the change[26;9H[1K */[27;9H[36mpublic[39m(B[m [32mboolean[39m(B[m  changeColor(String newColor){[28;17H[31mif[39m(B[m(!isColorValid(newColor)){[29;25HSystem.out.println([31m"The selected color is not valid"[39m(B[m);[30;25H[31mreturn[39m(B[m [33mfalse[39m(B[m;[31;17H}[32d[31mif[39m(B[m(newColor.equals(getColor())){[33;25HSystem.out.println([31m"The selected color is already the color"[39m(B[m);[34;25H[31mreturn[39m(B[m [33mfalse[39m(B[m;[35;17H}[36d[32mthis[39m(B[m.color = newColor;[38;17H[31mreturn[39m(B[m [33mtrue[39m(B[m;[39;9H}[41d[36mpublic[39m(B[m [32mboolean[39m(B[m isColorValid(String inputColor){[42;17HString [] validColor = {[31m"red"[39m(B[m,[31m"orange"[39m(B[m,[31m"yellow"[39m(B[m,[31m"green"[39m(B[m, [31m"cyan"[39m(B[m, [31m"blue"[39m(B[m,[31m"purple"[39m(B[m};[43;17H[31mfor[39m(B[m([32mint[39m(B[m i=0; i<validColor.length; i++){[44;25H[31mif[39m(B[m(inputColor.equals(validColor[i])){[45;33H[31mreturn[39m(B[m [33mtrue[39m(B[m;[46;25H}[47;17H}[48d[42m[1K[49;17H[49m[34m//Failed to find a match, the color is invalid[50;17H[31mreturn[39m(B[m [33mfalse[39m(B[m;[51;9H}[52d}[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[1;111H(B[0;7m*[203G(B[m[3;52r[3;1HM[1;55r[4;1H[?12l[?25h[?25l[3;52r[52;1H
+[1;55r[52;1H}[3d[?12l[?25h[?25l[?12l[?25h[4d[?25l7[4;52r8M[1;55r[5;1H[?12l[?25h[?25l[4;52r[4;1HM[1;55r[6;1H[?12l[?25h[?25l[4;52r[4;1HM[1;55r[7;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[34m *[39m(B[m[?25l[?12l[?25h[42m      [49m(B[m[?25l[?12l[?25h[3G[34m      M[39m(B[m[?25l[?12l[?25h[34ma[39m(B[m[?25l[?12l[?25h[34mx[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[34m B[39m(B[m[?25l[?12l[?25h[34mu[39m(B[m[?25l[53d[K[?12l[?25h[4;15H[34mb[39m(B[m[?25l[?12l[?25h[34ml[39m(B[m[?25l[?12l[?25h[34mi[39m(B[m[?25l[?12l[?25h[34mk[39m(B[m[?25l7[5;52r8[5dM[1;55r[5;1H[?12l[?25h[?25l[?12l[?25h[8G[42m[1K [49m(B[m[?25l[?12l[?25h[K[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[34m *[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [?25l[?12l[?25h[42m      [49m(B[m[?25l[?12l[?25h[3G[34m      m[39m(B[m[?25l[?12l[?25h[34mb[39m(B[m[?25l[?12l[?25h[34mu[39m(B[m[?25l[?12l[?25h[34mb[39m(B[m[?25l[?12l[?25h[34ml[39m(B[m[?25l[?12l[?25h[34mi[39m(B[m[?25l[?12l[?25h[34mk[39m(B[m[?25l[?12l[?25h[34m@[39m(B[m[?25l[?12l[?25h[34mw[39m(B[m[?25l[?12l[?25h[34mi[39m(B[m[?25l[?12l[?25h[34ms[39m(B[m[?25l[?12l[?25h[34mc[39m(B[m[?25l[?12l[?25h[34m.[39m(B[m[?25l[?12l[?25h[34me[39m(B[m[?25l[?12l[?25h[34md[39m(B[m[?25l[?12l[?25h[34mu[39m(B[m[?25l[?12l[?25h[6d[?25l[6;53r[53;1H
+[1;55r[52;17H[34m//Failed to find a match, the color is invalid[6d[39m(B[m[?12l[?25h[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[34m *[39m(B[m[?25l[?12l[?25h[42m      [49m(B[m[?25l[?12l[?25h[3G[34m      M[39m(B[m[?25l[?12l[?25h[34ma[39m(B[m[?25l[?12l[?25h[34mx[39m(B[m[?25l[?12l[?25h[34mJ[39m(B[m[?25l[?12l[?25h[34mB[39m(B[m[?25l[?12l[?25h[34mu[39m(B[m[?25l[?12l[?25h[34mb[39m(B[m[?25l[?12l[?25h[34ml[39m(B[m[?25l[?12l[?25h[34mi[39m(B[m[?25l[?12l[?25h[34mk[39m(B[m[?25l[53;96H(B[0;7m[ Writing... ](B[m[1;111H(B[0;7m [203G(B[m[53;94H(B[0;7m[ Wrote 54 lines ](B[m[?12l[?25h[6;19H[?25l[53d[J[55d[?12l[?25h[55;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h[bublik@snares-03] (10)$ nano Main.jaa[Kva
+[?2004l[?2004h[?1049h[22;0;0t[1;55r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[53;96H(B[0;7m[ Reading... ](B[m[53;94H(B[0;7m[ Read 22 lines ](B[m[H(B[0;7m  GNU nano 6.2                                                                                      Main.java                                                                                               [1;203H(B[m[54d(B[0;7m^G(B[m Help[54;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[54;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[54;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous     (B[0;7m^B(B[m Back[54;188H(B[0;7m^◂(B[m Prev Word[55d(B[0;7m^X(B[m Exit[55;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[55;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[55;120H(B[0;7mM-6(B[m Copy[55;137H(B[0;7m^Q(B[m Where Was     (B[0;7mM-W(B[m Next[55;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^▸(B[m Next Word[2d[34m/*[3d * Test the use of the Color method[4d */[5d[36mimport[39m(B[m java.util.*;[7d[36mpublic[39m(B[m [36mclass[39m(B[m Main{[8;9H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String [] args){[9;17HScanner input = [32mnew[39m(B[m Scanner(System.in);[10;17HSystem.out.println([31m"Beggining of testing the color class:"[39m(B[m);[11;17HColor myColor = [32mnew[39m(B[m Color([31m"blue"[39m(B[m);[13;17HSystem.out.println([31m"What color do you want to change to? "[39m(B[m);[14;17HString newColor = input.next();[15;17H[34m//If color change succeeded[16;17H[31mif[39m(B[m( myColor.changeColor(newColor)){[17;25HSystem.out.println([31m"The new color is:"[39m(B[m+myColor.getColor());[18;17H}[19d[31melse[39m(B[m{[20;25HSystem.out.println([31m"Color change failed! "[39m(B[m);[21;17H}[22;9H}[23d}[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[1;111H(B[0;7m*[203G(B[m[4;52r[4;1HM[1;55r[5;1H[?12l[?25h[?25l[4;52r[4;1HM[1;55r[6;1H[?12l[?25h[?25l[4;52r[4;1HM[1;55r[7;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[34m *[39m(B[m[?25l[?12l[?25h[42m      [49m(B[m[?25l[?12l[?25h[3G[34m      M[39m(B[m[?25l[?12l[?25h[34ma[39m(B[
