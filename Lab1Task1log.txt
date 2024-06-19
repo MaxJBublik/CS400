@@ -1,0 +1,65 @@
+Script started on 2024-06-04 08:51:50-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+[?2004h[bublik@vm-instunix-07] (1)$ ls
+[?2004l[0m[01;34mLab1Task1[0m/  Lab1Task1log.txt  Lab1Task1.tar.gz  Lab1Task2.tar.gz
+[?2004h[bublik@vm-instunix-07] (2)$ cd Lab1Task
+[?2004lbash: cd: Lab1Task: No such file or directory
+[?2004h[bublik@vm-instunix-07] (3)$ cd Lab1Task1
+[?2004l[?2004h[bublik@vm-instunix-07] (4)$ cat todo.txt
+[?2004l1. Create a file named tiger.txt within the animal folder.
+2. Create a file named tree.txt within the plant folder.
+
+[?2004h[bublik@vm-instunix-07] (5)$ cd animal
+[?2004l[?2004h[bublik@vm-instunix-07] (6)$ nano tiger.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                        tiger.txt                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h[bublik@vm-instunix-07] (7)$ cd..[K[K ..
+[?2004l[?2004h[bublik@vm-instunix-07] (8)$ cd plant
+[?2004l[?2004h[bublik@vm-instunix-07] (9)$ nano tree.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                        tree.txt                                  [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h[bublik@vm-instunix-07] (10)$ rm todo.txt
+[?2004lrm: cannot remove 'todo.txt': No such file or directory
+[?2004h[bublik@vm-instunix-07] (11)$ cd ..
+[?2004l[?2004h[bublik@vm-instunix-07] (12)$ rm todo.txt
+[?2004lrm: remove regular file 'todo.txt'? 
+[?2004h[bublik@vm-instunix-07] (13)$ ls
+[?2004l[0m[01;34manimal[0m/  [01;34mmineral[0m/  [01;34mplant[0m/  todo.txt
+[?2004h[bublik@vm-instunix-07] (14)$ rm todo.txt
+[?2004lrm: remove regular file 'todo.txt'? y
+[?2004h[bublik@vm-instunix-07] (15)$ ls
+[?2004l[0m[01;34manimal[0m/  [01;34mmineral[0m/  [01;34mplant[0m/
+[?2004h[bublik@vm-instunix-07] (16)$ mv animal/apple.txt plant/[K[K[K[K[K[Kplant
+[?2004l[?2004h[bublik@vm-instunix-07] (17)$ ls
+[?2004l[0m[01;34manimal[0m/  [01;34mmineral[0m/  [01;34mplant[0m/
+[?2004h[bublik@vm-instunix-07] (18)$ cd plant:[K; ls
+[?2004lapple.txt
+[?2004h[bublik@vm-instunix-07] (19)$ cd ..; cd animal; ls
+[?2004l[?2004h[bublik@vm-instunix-07] (20)$ ls
+[?2004l[?2004h[bublik@vm-instunix-07] (21)$ cd..
+[?2004lcd..: command not found
+[?2004h[bublik@vm-instunix-07] (22)$ ls
+[?2004l[?2004h[bublik@vm-instunix-07] (23)$ cd ..
+[?2004l[?2004h[bublik@vm-instunix-07] (24)$ ls
+[?2004l[0m[01;34manimal[0m/  [01;34mmineral[0m/  [01;34mplant[0m/
+[?2004h[bublik@vm-instunix-07] (25)$ cd animal[K[K[K[K[K[Kplant
+[?2004l[?2004h[bublik@vm-instunix-07] (26)$ ls
+[?2004lapple.txt
+[?2004h[bublik@vm-instunix-07] (27)$ nano tree.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                        tree.txt                                  [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;79H[22;32H(B[0;7m[ Wrote 0 lines ](B[m[?12l[?25h[2d[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h[bublik@vm-instunix-07] (28)$ ls
+[?2004lapple.txt  tree.txt
+[?2004h[bublik@vm-instunix-07] (29)$ cd ..;cd animal; nano tiger.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                        tiger.txt                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;79H[22;32H(B[0;7m[ Wrote 0 lines ](B[m[?12l[?25h[2d[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h[bublik@vm-instunix-07] (30)$ cd ..
+[?2004l[?2004h[bublik@vm-instunix-07] (31)$ mkdir valuable[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..;ls
+[?2004l[0m[01;34mLab1Task1[0m/  Lab1Task1log.txt  Lab1Task1.tar.gz  Lab1Task2.tar.gz
+[?2004h[bublik@vm-instunix-07] (32)$ cd Lab1Task1
+[?2004l[?2004h[bublik@vm-instunix-07] (33)$ ls
+[?2004l[0m[01;34manimal[0m/  [01;34mmineral[0m/  [01;34mplant[0m/
+[?2004h[bublik@vm-instunix-07] (34)$ mkdir valuable
+[?2004l[?2004h[bublik@vm-instunix-07] (35)$ mv ni[K[Kmineral/gold.txt valuable
+[?2004l[?2004h[bublik@vm-instunix-07] (36)$ ls
+[?2004l[0m[01;34manimal[0m/  [01;34mmineral[0m/  [01;34mplant[0m/  [01;34mvaluable[0m/
+[?2004h[bublik@vm-instunix-07] (37)$ cs valuab[K[K[K[K[K[K[K[Kd valuable; ls [K; cd ..
+[?2004lgold.txt
+[?2004h[bublik@vm-instunix-07] (38)$ rv [K[Km [Kdir minear[K[Kral
+[?2004l[?2004h[bublik@vm-instunix-07] (39)$ ls
+[?2004l[0m[01;34manimal[0m/  [01;34mplant[0m/  [01;34mvaluable[0m/
+[?2004h[bublik@vm-instunix-07] (40)$ exit
+[?2004lexit
+
+Script done on 2024-06-04 09:02:37-05:00 [COMMAND_EXIT_CODE="0"]
